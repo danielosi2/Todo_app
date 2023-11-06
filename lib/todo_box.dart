@@ -10,6 +10,13 @@ class TodoBox extends StatefulWidget {
 class _TodoBoxState extends State<TodoBox> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      width: double.infinity,
+      height: 100,
+      alignment: Alignment.center,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(12)
+      ),
+    );
   }
 }
